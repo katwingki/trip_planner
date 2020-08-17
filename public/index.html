@@ -10,9 +10,34 @@
       href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
       rel="stylesheet"
     />
-    >
   </head>
   <body>
-    <div id="map"></div>
+    <div class="header">Trip Planner</div>
+    <div class="flexContainer">
+      <div id="map"></div>
+
+      <div id="userInput">
+        <label for="hotel" class="col-sm-2 control-label">Hotel<br /></label>
+
+        <input name="hotel" type="text" class="form-control" />
+
+        <label for="activity" class="col-sm-2 control-label"
+          >Activity<br
+        /></label>
+
+        <input name="activity" type="text" class="form-control" />
+
+        <label for="restaurant" class="col-sm-2 control-label"
+          >Restaurant<br
+        /></label>
+
+        <input name="restaurant" type="text" class="form-control" />
+      </div>
+      <div id="userOutput">
+        <label for="userOutput" class="col-sm-2 control-label"
+          >USER OUTPUT<br
+        /></label>
+      </div>
+    </div>
   </body>
 </html>
